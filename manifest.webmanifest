@@ -1,8 +1,8 @@
 {
-  "name": "library-academic",
-  "short_name": "library-academic",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "Biblioteca ISTPM",
+  "short_name": "Biblioteca ISTPM",
+  "theme_color": "#74A204",
+  "background_color": "#74A204",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
