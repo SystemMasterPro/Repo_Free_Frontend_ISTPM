@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1630084634906,
+  "timestamp": 1630679539855,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,21 +11,26 @@
         "ignoreVary": true
       },
       "urls": [
-        "/129.b8f7813089f435645985.js",
-        "/451.08fdc44088a6eedefdad.js",
-        "/465.402954731f1e38567fb0.js",
-        "/482.e74c242750aebd4f9514.js",
-        "/783.fce80e8aca93c6561027.js",
-        "/809.f2148b3d3b9ff6d931d8.js",
+        "/129.7c7c54d5485fb650094b.js",
+        "/451.675b52022c0535dd88a9.js",
+        "/465.8548371bf748a62380a2.js",
+        "/482.f57c492805922eff0a4d.js",
+        "/783.bfbd5c453edce81487bb.js",
+        "/809.44f42782fe57b3405737.js",
         "/favicon.ico",
         "/index.html",
-        "/main.71d41fa3ff96cf4cc64a.js",
+        "/main.f4e3c6648ef4032f5d6e.js",
         "/manifest.webmanifest",
         "/polyfills.cbf275f4aa6e980e6cd1.js",
-        "/runtime.d137757fcd962a97b28f.js",
+        "/runtime.e28b8f174d94a8eb98a3.js",
         "/styles.1df529f1b930a2f0a7ff.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/cdnjs\\.cloudflare\\.com\\/ajax\\/libs\\/animate\\.css\\/4\\.1\\.1\\/animate\\.min\\.css",
+        "https:\\/\\/fonts\\.gstatic\\.com",
+        "https:\\/\\/fonts\\.googleapis\\.com\\/icon\\?family=Material\\+Icons",
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css2\\?family=Roboto:wght@300;400;500&amp;display=swap"
+      ]
     },
     {
       "name": "assets",
@@ -1453,14 +1458,15 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
-        "/assets/images/66.jpg",
         "/assets/images/Politicas.png",
+        "/assets/images/acreditacion.jpg",
         "/assets/images/b.jpg",
+        "/assets/images/biblioteca.jpg",
         "/assets/images/icon.png",
         "/assets/images/istpm.png",
         "/assets/images/login.jpg",
-        "/assets/images/p.jpg",
         "/assets/images/readBook.jpg",
+        "/assets/images/rector.jpg",
         "/assets/js/bootstrap.bundle.js",
         "/assets/js/bootstrap.bundle.js.map",
         "/assets/js/bootstrap.bundle.min.js",
@@ -1481,14 +1487,29 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "data-api",
+      "patterns": [
+        "\\/"
+      ],
+      "strategy": "freshness",
+      "maxSize": 5,
+      "maxAge": 3000000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
   "hashTable": {
-    "/129.b8f7813089f435645985.js": "c51b7e454e0c064d479c7b0302df1f055e01cdce",
-    "/451.08fdc44088a6eedefdad.js": "6630704815a945c3c4d3a215bedef6bb72ed9764",
-    "/465.402954731f1e38567fb0.js": "92493c4b2cc1a4791aaf7053921bd2e6057eeca3",
-    "/482.e74c242750aebd4f9514.js": "19aa91b1978627603b19e5de29204ce88155029d",
-    "/783.fce80e8aca93c6561027.js": "ce5cefbac701f3dba6c759f0306abd9135e47a70",
-    "/809.f2148b3d3b9ff6d931d8.js": "ea03e047591c51e92329945a700c764c9f223bf1",
+    "/129.7c7c54d5485fb650094b.js": "c69fddb2857578a4313bad69484d6d0022e0e12f",
+    "/451.675b52022c0535dd88a9.js": "edfc64ee97ae416373d12c854f926f4ed23e7daf",
+    "/465.8548371bf748a62380a2.js": "92493c4b2cc1a4791aaf7053921bd2e6057eeca3",
+    "/482.f57c492805922eff0a4d.js": "cae321041caf37e53302e62bfcc185cbc4f9e09c",
+    "/783.bfbd5c453edce81487bb.js": "fdeb283e282302018bec6d2a1a06c21654a17699",
+    "/809.44f42782fe57b3405737.js": "ea03e047591c51e92329945a700c764c9f223bf1",
     "/assets/css/bootstrap-grid.css": "0d4e90d79d8f862d9cf06104ad6336401b1d74af",
     "/assets/css/bootstrap-grid.css.map": "fd02edd689820bdac671b50289eeb8fd4e6c6aad",
     "/assets/css/bootstrap-grid.min.css": "21398ccec4defafe860d856bf6aa9c9dccfe74d9",
@@ -2907,14 +2928,15 @@
     "/assets/icons/icon-512x512.png": "14376a9a45d9f8d0b49195ba44e3c6000efdd78b",
     "/assets/icons/icon-72x72.png": "d22fc315351072bd4091ec911a53d6be20c848d1",
     "/assets/icons/icon-96x96.png": "2e8f29de56f7e3dac0f806c903fbab3ac964bacc",
-    "/assets/images/66.jpg": "50bcfe5d875da0be606a7ef24d1acf86fbe3a402",
     "/assets/images/Politicas.png": "456801cf2ce9f9ea956e2146e2b4dac805be15d7",
+    "/assets/images/acreditacion.jpg": "ada8d93f59bca59a0f53db76266a8ce97ecdc709",
     "/assets/images/b.jpg": "48a8a44fdfb0e3198748e824d7ab9ac446378abc",
+    "/assets/images/biblioteca.jpg": "111d2687a01aca2bc61ad025603f085d076db70a",
     "/assets/images/icon.png": "96596a85e86e52bb0d7f775d6cb6fc2ef1e3a6d0",
     "/assets/images/istpm.png": "c65ab2dc4d838f8ad9f3737ff7b2e7c2d34987b6",
     "/assets/images/login.jpg": "690b0cc78ee502aa7c54dd069768ac4b1d1ebac0",
-    "/assets/images/p.jpg": "111d2687a01aca2bc61ad025603f085d076db70a",
     "/assets/images/readBook.jpg": "2de946dc408501b108a1fecd49ff2430c691af31",
+    "/assets/images/rector.jpg": "7ae5d9fc6bf02785722720a56b140c5dd8483870",
     "/assets/js/bootstrap.bundle.js": "39f80aad1598604e626dc5a92d7774f248ffc9dc",
     "/assets/js/bootstrap.bundle.js.map": "990387a5d31cd20de56de11d1d1886c01bca5761",
     "/assets/js/bootstrap.bundle.min.js": "901169527507ff9e662cf64d8e361f359308970d",
@@ -2932,11 +2954,11 @@
     "/assets/js/popper.min.js": "8eeb7bf71e8a978b82a1a198015f14d73d2ea592",
     "/b.e1c50fa70c52d17c8489.jpg": "48a8a44fdfb0e3198748e824d7ab9ac446378abc",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "a965ce3840a321ff2411a16905bc35c6564d1ad4",
-    "/main.71d41fa3ff96cf4cc64a.js": "de0e5030dcd646b0c872552ca8f86ec4b5976c19",
+    "/index.html": "a4d5ba4dc1aa96006d2473a370992e0410fb3a99",
+    "/main.f4e3c6648ef4032f5d6e.js": "860fbad4784364d6effe3f911dad5e9507c2b88c",
     "/manifest.webmanifest": "6055d64a8783e8cbf5162cb8f248997905f9efa1",
     "/polyfills.cbf275f4aa6e980e6cd1.js": "acab34106086e274e0a5d8ce3317369110c8f156",
-    "/runtime.d137757fcd962a97b28f.js": "e2144cdbea55a44ef27c16d18dbfcb3d58ef765e",
+    "/runtime.e28b8f174d94a8eb98a3.js": "0a64304e734bba02c1c9768d1c294a0530b566b1",
     "/styles.1df529f1b930a2f0a7ff.css": "0981a91a9f545f1e805ffe86eb8829a6ae732478"
   },
   "navigationUrls": [
