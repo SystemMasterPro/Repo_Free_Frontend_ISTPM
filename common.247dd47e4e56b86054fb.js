@@ -1,0 +1,1 @@
+(self.webpackChunklibrary_academic=self.webpackChunklibrary_academic||[]).push([[592],{8721:(e,a,c)=>{"use strict";c.d(a,{F:()=>n});var r=c(8583),i=c(7716);let n=(()=>{class e{}return e.\u0275fac=function(a){return new(a||e)},e.\u0275mod=i.oAB({type:e}),e.\u0275inj=i.cJS({imports:[[r.ez]]}),e})()}}]);
